@@ -1,0 +1,12 @@
+create table emp_detail(e_no number(3),e_name varchar(20),e_school varchar(20),e_hobby varchar(10),e_std number(2),e_gender varchar(6));
+insert into emp_detail value(001,'yash','navoday','play cricket',12,'male');
+insert into emp_detail value(001,'punit','navoday','read book',12,'male');
+insert into emp_detail value(001,'sumit','navoday',null,12,'male');
+insert into emp_detail value(001,'isha','navoday','visit places',12,'female');
+insert into emp_detail value(001,'manav','navoday','collect stamp',12,'male');
+insert into emp_detail value(001,'shakshi','navoday','singing',12,'female');
+insert into emp_detail value(001,null,'navoday','dancing',12,'male');
+insert into emp_detail value(001,'prem','navoday',null,12,'male');
+insert into emp_detail value(001,'avi','navoday','collect news',12,'male');
+insert into emp_detail value(001,null,'navoday','running',12,'male');
+select*from emp_detail;
